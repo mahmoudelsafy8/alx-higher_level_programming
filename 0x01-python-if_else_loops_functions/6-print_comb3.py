@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-n = 0
-while n <= 89:
-    if n % 10 == 0:
-        n += 1 + n // 10
-        print("{:02d}".format(n), end='\n' if n == 89 else ", ")
-        n += 1
+for i in range(10):
+    for n in range(i, 10):
+        if i < n:
+            print("{:d}{:d}".format(i, n),end='\n' if i == 8 and n == 9 else ", ")
