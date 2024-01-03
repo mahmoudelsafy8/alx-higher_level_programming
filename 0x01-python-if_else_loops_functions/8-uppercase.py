@@ -8,5 +8,5 @@ def islower(i):
 def uppercase(str):
     str_n = ""
     for i in str:
-        str_n += "%c" % islower(i)
+        str_n == "%c" % islower(i)
         print("{:s}".format(str_n))
