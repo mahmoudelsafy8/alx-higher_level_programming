@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 '''Module for lookup method.'''
 def lookup(obj):
-    '''look up object attributes and method.
+    '''looks up object attributes and methods.
     Args:
-    obj (object): object list.
+    obj (object): object to list.
     Returns:
     list: list of attributes.
     '''
