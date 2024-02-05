@@ -7,4 +7,4 @@ def lookup(obj):
     Returns:
     list: list of attributes.
     '''
-    return dir(obj)
+    return (dir(obj))
